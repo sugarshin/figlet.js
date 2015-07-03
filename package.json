@@ -1,6 +1,6 @@
 {
   "name": "figlet",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Creates ASCII Art from text. A full implementation of the FIGfont spec.",
   "keywords": [
     "figlet",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "main": "./lib/node-figlet.js",
   "dependencies": {
-    "es6-promise": "^2.3.0",
+    "bluebird": "^2.9.31",
     "whatwg-fetch": "^0.9.0"
   },
   "devDependencies": {
